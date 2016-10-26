@@ -1,0 +1,179 @@
+html {
+  background-color: #f7f7f7;
+  font-family: 'Open Sans', sans-serif;
+  color: #444;
+  font-weight: 300;
+}
+
+body {
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+h1, h2{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+button {
+  background-color: #f7f7f7;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-style: solid;
+  border-color: #1E90FF;
+  color: #1E90FF;
+}
+
+button:hover {
+  background-color: #1E90FF;
+  color: #f7f7f7;
+}
+
+button:focus {
+  outline:none;
+  background-color: #5babfa;
+}
+
+.item_container {
+  width: 504px;
+  margin: auto;
+  /*background-color: red;*/
+  /*min-height: 200px;*/
+  margin-top: 20px;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eee;
+  border-radius: 3px;
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.personal {
+  height: 100%;
+  width: 130px;
+  display: inline-block;
+  /*background-color: blue;*/
+}
+
+.pic {
+  width: 130px;
+  height: 130px;
+  text-align: center;
+  /*background-color: green;*/
+}
+
+.username {
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  margin-top: 2px;
+  /*background-color: pink;*/
+}
+
+.repository {
+  height: 100%;
+  width: 360px;
+  display: inline-block;
+  margin-left: 14px;
+  vertical-align: top;
+  /*background-color: brown;*/
+}
+
+.title {
+  width: 360px;
+  /*height: 40px;*/
+  font-weight: 700;
+  font-size: 18px;
+  /*background-color: purple;*/
+}
+
+.stars {
+  width: 360px;
+  /*height: 40px;*/
+  font-weight: 700;
+  /*font-size: 24px;*/
+  /*background-color: yellow;*/
+}
+
+.description {
+  width: 360px;
+  height: 100%;
+  margin-top: 12px;
+  /*min-height: 40px;*/
+  /*background-color: gray;*/
+}
+
+a:link {
+    color: #aaaaaa;
+}
+
+/* visited link */
+a:visited {
+    color: #aaaaaa;
+}
+
+/* mouse over link */
+a:hover {
+    color: #cfcfcf;
+}
+
+/* selected link */
+a:active {
+    color: #818181;
+}
+
+.info {
+  color: rgba(68,68,68,0.5);
+  text-align: center;
+  margin-top: 36px;
+  margin-bottom: 48px;
+}
+
+.head {
+  color: rgba(68,68,68,0.5);
+  text-align: center;
+  margin-top: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.sub{
+  color: rgba(68,68,68,0.5);
+  text-align: center;
+}
+
+.footer_text {
+  line-height: 64px;
+  font-size: 13px;
+  display: block;
+}
+
+footer {
+  position: absolute;
+  left:0;
+  /*min-height: 85px;*/
+  width: 100%;
+  margin-top: 48px;
+  color:white;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: #979797;
+  text-align: center;
+}
+
+a.footer {
+  color: white;
+}
+
+#container {
+  min-height: 800px;
+}
